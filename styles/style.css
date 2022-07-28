@@ -30,5 +30,21 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .heading-size {font-size:3rem;} /*1rem = 16px*/   
     .small-size {font-size: .875em;}
   }
+
+  /* registration part  */
+
+  .registration-bg-color{
+    background-color: #289BDE;
+  }
+
+  .registration-btn{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #289BDE;
+  }
+  .reg-color{
+    color: #FFFFFF;
+  }
    
   
