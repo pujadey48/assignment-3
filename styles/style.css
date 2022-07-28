@@ -2,3 +2,33 @@
         filter: brightness(50%);
       
 }
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.heading-size {font-size:1rem;} /*1rem = 16px*/
+.small-size {font-size: .600em;}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    .heading-size {font-size:1.5rem;} /*1rem = 16px*/
+    .small-size {font-size: .875em;}
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) {  
+    .heading-size {font-size:2rem;} /*1rem = 16px*/
+    .small-size {font-size: .875em;}
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .heading-size {font-size:2.5rem;} /*1rem = 16px*/
+    .small-size {font-size: .875em;}
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .heading-size {font-size:3rem;} /*1rem = 16px*/   
+    .small-size {font-size: .875em;}
+  }
+   
+  
